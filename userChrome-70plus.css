@@ -754,10 +754,10 @@ menucaption[disabled="true"][_moz-menuactive="true"] {
 }
 
 menupopup .popup-internal-box {
-    background-color: Menu !important;
+    background-color: transparent !important;
 }
 
-menu,
+/*menu,*/
 menuitem, 
 menucaption {
     padding-left: 10px !important;
@@ -799,8 +799,9 @@ menu:not(.subviewbutton) > .menu-right image {
         margin: -2px !important;
         padding-bottom: 3px !important;
         padding-top: 3px !important;
+			background-color: var(--toolbar-bgcolor, menu) !important;
     }
-
+	
     .bookmark-item .scrollbutton-up {
         margin-top: -3px !important;
     }
@@ -917,15 +918,15 @@ menucaption {
 
 /* GABE FIX */ #PlacesToolbarItems menupopup, menupopup #contentAreaContextMenu {
 	border: 0px none !important;
-	/*background: var(--toolbar-bgcolor) !important;*/
-	color: MenuText !important;
+	background: var(--toolbar-bgcolor) !important;
+	/*color: MenuText !important;*/
 	/*-moz-appearance: Menu !important;*/
 }
 
 /* GABE FIX */ arrowscrollbox.popup-internal-box {
   /* emulating MozPlacesPopupArrow but without the arrow */
-    background: var(--toolbar-bgcolor) !important;
-    color: var(--toolbar-bgcolor) !important;
+    background: var(--toolbar-bgcolor, menu) !important;
+    color: var(--toolbar-color) !important;
 }
 
 menupopup[placespopup="true"] {
@@ -938,7 +939,7 @@ menupopup .arrowscrollbox-scrollbox {
     margin-bottom: -3px !important;
     padding-top: 4px !important;
     padding-bottom: 4px !important;
-    background-color: var(--toolbar-bgcolor, menu) !important;
+    background-color: var(--toolbar-bgcolor) !important;
 	/*GABE FIX*/ margin-right: 0px !important;
 	padding-right: 3px !important;
 	margin-left: 0px !important;
@@ -1073,7 +1074,7 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 	min-height: 32px !important;
 	} */
 
-/* hACKING MENUS */
+/* HACKING MENUS */
 
 menupopup, menubar #gopopup, menupopup #contentAreaContextMenu[hasbeenopened="true"] {
     border: 0px none!important;
