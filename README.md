@@ -3,11 +3,11 @@
 A custom userChrome.css and userContent.css for Firefox 68, 69 and 70 (08-2019). For personal purpose only.
 
 ![Screenshot](Firefox-Browser-UI-Custom-Nightly-W10-Dark.png)
-(Firefox Browser UI Custom - Firefox Browser Nightly 70.0 - Windows 10)
+(Firefox Browser UI Custom - Firefox Browser 70 - Windows 10)
 
 
 ![Screenshot](Firefox-Browser-UI-Custom-Developer-W10-Light.png)
-(Firefox Browser UI Custom - Firefox Browser Developer Edition 69 - Windows 10)
+(Firefox Browser UI Custom - Firefox Quantum 69 - Windows 10)
 
 # Features?
 
@@ -23,7 +23,7 @@ Oh, yes, some little things:
 
 # How-To?
 
-- Copy the [userChrome-Nightly.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userChrome-Nightly.css) (for Nightly version) or [userChrome-DevEd.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userChrome-DevED.css) (for Developer Edition) file (right-click -> Save Link As...) to your Firefox profile chrome folder. Rename it as "userChrome.css". Plus, copy the [userContent.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userContent.css) file too in the same folder.
+- Copy the [userChrome-70plus.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userChrome-70plus.css) (for Firefox Browser 70+ version) or [userChrome-up69.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userChrome-up69.css) (for Firefox Quantum 69) file (right-click -> Save Link As...) to your Firefox profile chrome folder. Rename it as "userChrome.css". Plus, copy the [userContent.css](https://github.com/gabeweb/Firefox-Browser-UI-Custom/blob/master/userContent.css) file too in the same folder.
 
 ![Screenshot](https://github.com/gabeweb/Firefox-Quantum-UI-Lite/blob/master/firefox-quantum-ui_lite_how-to_01.png)
 
