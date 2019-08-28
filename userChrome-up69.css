@@ -99,6 +99,21 @@ userChrome.css, it must be placed above the namespace line. */
 	background-color: Highlight !important;
 	}
 
+	/* Revert tab throbber - for Nightly 57 as of 9/20/2017 */
+	.tab-throbber[busy]::before {
+		background-image: url("chrome://global/skin/icons/loading.png") !important;
+		animation: unset !important;
+	}
+	.tab-throbber[busy]:not([progress])::before {
+	/* Grays the blue during "Connecting" state */
+		filter: grayscale(100%);
+	}
+	@media (min-resolution: 2dppx) {
+		.tab-throbber[busy]::before {
+			background-image: url("chrome://global/skin/icons/loading@2x.png") !important;
+		}
+	}
+
 	/* DO NOT CHANGE THESE */
 	/* .toolbarbutton-1 {
 	fill: #4C4C4C !important;
@@ -1039,7 +1054,7 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 	min-height: 32px !important;
 	} */
 
-/* hACKING MENUS */
+/* HACKING MENUS */
 
 menupopup, menubar #gopopup, menupopup #contentAreaContextMenu[hasbeenopened="true"] {
     border: 0px none!important;
