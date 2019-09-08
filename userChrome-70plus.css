@@ -636,10 +636,10 @@ userChrome.css, it must be placed above the namespace line. */
     padding-bottom: 11px !important;
 }
 
-#urlbar-container, #search-container {
+/* GABE FIX*/ /*#urlbar-container, #search-container {
     margin-left: -5px !important;
-    margin-right: -5px !important;
-}
+    margin-right: 5px !important;
+}*/
 
 #urlbar-container #urlbar[pageproxystate="invalid"] {
     margin-left: 5px !important;
@@ -1074,7 +1074,7 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 	min-height: 32px !important;
 	} */
 
-/* HACKING MENUS */
+/* hACKING MENUS */
 
 menupopup, menubar #gopopup, menupopup #contentAreaContextMenu[hasbeenopened="true"] {
     border: 0px none!important;
