@@ -1108,7 +1108,7 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 /* Replacing bookmarks menu icon */
 
 #bookmarks-menu-button {
-    list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.svg") !important;
+    /*list-style-image: url("chrome://browser/skin/places/bookmarksToolbar.svg") !important;*/
     fill: #ffd567 !important;
 }
 
@@ -1162,8 +1162,48 @@ panelview image {
     fill: #00b0f0 !important;
 }
 
+#characterencoding-button {
+    fill: #cc9eff !important;
+}
+
 #sidebar-button {
     fill: #2bc4a2 !important;
+}
+
+#add-ons-button {
+    fill: limegreen !important;
+}
+
+#email-link-button {
+    fill: #ffd567 !important;
+}
+
+#fxa-toolbar-menu-button {
+    fill: #00b0f0 !important;
+}
+
+#history-panelmenu {
+    fill: #0060df !important;
+}
+
+#library-button {
+    fill: #582acb !important;
+}
+
+#new-window-button {
+    fill: #00b3f5 !important;
+}
+
+#open-file-button {
+    fill: #c588ff !important;
+}
+
+#panic-button {
+    fill: red !important;
+}
+
+#print-button {
+    fill: #00b3f5 !important;
 }
 
 #privatebrowsing-button {
@@ -1174,28 +1214,12 @@ panelview image {
     fill: #fe4aa3 !important;
 }
 
-#add-ons-button {
-    fill: limegreen !important;
+#save-page-button {
+    fill: #3fe1b0 !important;
 }
 
-#print-button {
-    fill: #00b3f5 !important;
-}
-
-#history-panelmenu {
-    fill: #0060df !important;
-}
-
-#panic-button {
-    fill: red !important;
-}
-
-#email-link-button {
+#sync-button {
     fill: #ffd567 !important;
-}
-
-#fxa-toolbar-menu-button {
-    fill: #00b0f0 !important;
 }
 
 /* Replacing hamburger menu icon with Firefox icon*/
