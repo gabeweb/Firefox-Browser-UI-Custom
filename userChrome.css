@@ -620,6 +620,16 @@ toolbarbutton:not(.titlebar-button):not([class^="findbar-find"]):not([class^="sc
 }
 
 /* GABE CUSTOM */
+
+/* PRIVATE WINDOW */
+#main-window[privatebrowsingmode="temporary"] #TabsToolbar {
+    background: linear-gradient(to right, #712290, #2b1141) !important;
+    color: #f7e3ff !important;
+}
+#main-window[privatebrowsingmode="temporary"] #tabs-newtab-button {
+    fill: #fff !important;
+}
+
 /* urlbar-go-button */
 #urlbar:active #urlbar-go-button,
 #urlbar:hover #urlbar-go-button,
