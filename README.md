@@ -21,6 +21,12 @@ A custom userChrome.css and userContent.css now for Firefox 76+ (May 2020). For 
 ![Screenshot](Firefox-Browser_UI_Custom-06.png)
 (Firefox Browser UI Custom - Firefox Browser 78 Nigthly - Windows 10 Pro Light Theme)
 
+![Screenshot](Firefox-Browser_UI_Custom-07.png)
+(Firefox Browser UI Custom - Private Browsing Window Firefox Browser 78 Nigthly - Windows 10 Pro Dark Theme)
+
+![Screenshot](Firefox-Browser_UI_Custom-08.png)
+(Firefox Browser UI Custom - Private Browsing Window Firefox Browser 78 Nigthly - Windows 10 Pro Light Theme)
+
 # Features?
 
 Oh, yes, some little things:
@@ -31,6 +37,7 @@ Oh, yes, some little things:
 * Customized extensions widget panel
 * Customized bookmarks popup panel
 * Various small custom/fixes for UI
+* **New:** Private Browsing Window custom!
 
 
 # How-To?
