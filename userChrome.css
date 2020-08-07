@@ -487,14 +487,15 @@ toolbarbutton:not(.titlebar-button):not([class^="findbar-find"]):not([class^="sc
 /* style identity box */
 #identity-box {
     margin-right: 0px !important;
+    border-inline-end: none !important; /* GABE CUSTOM */
 }
 
 /* style address bar */
 #urlbar-background {
     background-color: transparent !important;
-    /*border-color: transparent !important;*/
+    border-color: transparent !important; /* COMMENT HERE TO ENABLE BORDER IR #urlbar */
     border-radius: calc(1px + var(--button-corner-rounding)) !important;
-    /*box-shadow: none !important;*/
+    box-shadow: none !important;
 }
 
 #urlbar[breakout][breakout-extend] {
@@ -514,7 +515,8 @@ toolbarbutton:not(.titlebar-button):not([class^="findbar-find"]):not([class^="sc
     margin-top: -1px !important;
 }
 
-.urlbarView.megabar {
+/* urlbarView = the menu when you expand the address bar */
+.urlbarView {
     width: 100% !important;
     margin-inline: 0px !important;
     box-shadow: 0px 5px 15px -7px black !important;
@@ -628,6 +630,10 @@ toolbarbutton:not(.titlebar-button):not([class^="findbar-find"]):not([class^="sc
 }
 #main-window[privatebrowsingmode="temporary"] #tabs-newtab-button {
     fill: #fff !important;
+}
+
+#main-window[privatebrowsingmode="temporary"] tabs#tabbrowser-tabs {
+	--tab-line-color: #B933E1 !important;
 }
 
 /* urlbar-go-button */
@@ -1142,6 +1148,10 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 
 #developer-button {
     fill: #00b3f5 !important;
+}
+
+#downloads-button {
+    fill: #80eaff !important;
 }
 
 #stop-button {
