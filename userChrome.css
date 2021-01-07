@@ -124,8 +124,8 @@ tab:not([selected]):hover .tab-background {
 }
 
 tab {
-    min-width: 1px !important;
-    clip-width: 1px !important;
+    min-width: 76px !important;
+    clip-width: 100px !important;
     padding-bottom: 1px !important;
 }
 
@@ -1107,19 +1107,19 @@ panel:not([viewId^="PanelUI-webext"]) .panel-arrow {
 }
 
 /* Revert tab throbber - for Nightly 57 as of 9/20/2017 */
-.tab-throbber[busy]::before {
+/*.tab-throbber[busy]::before {
     background-image: url("chrome://global/skin/icons/loading.png") !important;
     animation: unset !important;
-}
-.tab-throbber[busy]:not([progress])::before {
-/* Grays the blue during "Connecting" state */
+}*/
+/*.tab-throbber[busy]:not([progress])::before*/ {
+ Grays the blue during "Connecting" state 
     filter: grayscale(100%);
 }
-@media (min-resolution: 2dppx) {
+/*@media (min-resolution: 2dppx) {
     .tab-throbber[busy]::before {
         background-image: url("chrome://global/skin/icons/loading@2x.png") !important;
     }
-}
+}*/
 
 /* Replacing bookmarks menu icon */
 
